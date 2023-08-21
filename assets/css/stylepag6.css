@@ -1,0 +1,122 @@
+body{
+background-color: rgb(212, 212, 212);
+}
+    
+hr {
+width: 250px;
+height: 200px;
+background-color: rgb(240, 238, 238);
+margin-top: 65px;/*para mover 1px para cima*/
+margin-left: 30px;
+border:  transparent;
+}
+    
+/*Falta colocar o nome no lugar, um input type radio para escolher a cor da roupa, opçao de selecionar o tamanho da roupa, selecionar a quantidade, botao de compra e descrição do produto*/
+    
+#moldura2corin {
+width: 500px;
+height: 400px;
+background-color: white;
+position: absolute;
+left: 35px;
+bottom: 195px;
+border-radius: 15px;
+cursor: pointer;
+user-select: none; /*impede o usuário de selecionar e copiar o texto de um elemento na página da web.*/
+}
+    
+
+#camisa2corin{
+position: absolute;
+width: 175px;
+height: 175px;
+left: 70px;
+bottom: 145px;
+-webkit-user-drag: none; /*impede o usuário de selecionar e copiar um elemento na página da web.*/
+}
+    
+#texto2corinemcima{
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+text-align: center;/*para deixar o texto no centro*/
+display: flex;/*para deixar o texto no centro*/
+justify-content: center;/*para deixar o texto no centro*/
+position: relative; /*para fazer o texto mover sem mover o resto*/
+top: -195px;  /*para fazer o texto mover sem mover o resto*/
+left: 140px;
+}
+
+#texto2corinembaixo{
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+text-align: center;/*para deixar o texto no centro*/
+display: flex;/*para deixar o texto no centro*/
+justify-content: center;/*para deixar o texto no centro*/
+position: relative; /*para fazer o texto mover sem mover o resto*/
+top: -195px;  /*para fazer o texto mover sem mover o resto*/
+left: 145px;
+}
+    
+#desconto2corin{
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: line-through;
+font-size: small;
+top: -175px;
+left: 315px;
+position: relative;
+}
+    
+#preço2corin {
+font-family: Arial, Helvetica, sans-serif;
+top: -155px;
+left: 250px;
+position: relative;
+font-size: 10;
+}
+    
+#pix2corin{
+top: -155px;
+left: 250px;
+position: relative;
+font-size: small;
+color: rgb(65, 65, 65);
+}
+
+#quantidade{
+position: relative; 
+width: 39px;
+height: 39px;
+left: 180px;
+bottom: 65px;
+}
+
+#Qtd{
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+bottom: 100px;
+left: 115px;
+}
+
+#btncorincomprar{
+width: 250px;
+height: 45px;
+position: absolute;
+left: 195px;
+bottom: 35px;
+color: white;
+border: transparent;
+border-radius: 105px;
+background-color: rgb(73, 73, 73);
+font-size: medium;
+transition: all 1s;
+cursor: pointer;
+}
+    
+#btncorincomprar:hover {
+background-color: rgb(53, 53, 53);
+transform: scale(1.03);
+}
+
+#infocorin{
+font-size: x-small;
+}
